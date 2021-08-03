@@ -1,0 +1,483 @@
+.header{
+    height: 85px;
+    width: 100%;
+    margin-top: 48px;
+    position: relative;
+    z-index: 1;    
+    
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.khoi{
+    list-style-type:none ;
+
+}
+.square {
+    width: 50px;
+    height: 50px;
+    background: #FCA311;
+    line-height: 85px;
+    margin-top: 20px;
+   
+}
+.hinhtron {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    transform: translate(-50%, 11%);
+    height: 29px;
+    width: 50px;
+    border-radius: 0 0 25px 25px;
+    background-color: #14213D;
+}
+
+
+
+.nav{
+    font-size: 16px;
+    line-height: 85px;
+    font-weight: 500;
+    list-style-type:none ;
+    display: flex;
+    padding-right: 90px;
+}
+.nav a{
+    color: #303948;
+    text-decoration: none;
+    padding-left: 25px;
+    
+}
+.boss{
+    position: absolute;
+    border-radius: 35px;
+    height: 707px;
+    width: 1389px;
+    background-color: rgba(229, 235, 240, 1);
+    background: url(/maumoi/assets/img/Background.png);
+    margin-top: 60px;
+    margin-left: 39px;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    top:216px;
+    left: 78px;
+    color: white;
+    text-align:left;
+}
+.meme{
+    position: absolute;
+    width: 678px;
+    height: 836px;
+    left: 632px;
+    top: -344px;
+}
+.teki{
+    font-size: 50px;
+}
+.btn{
+    font-size: 22px;
+    width: 264px;
+    height: 67px;
+    background-color: white;
+    color: #14213D;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    line-height: 67px;
+}
+.textimg{
+    position: absolute;
+    width: 1262px;
+    height: 475px;
+    left: -20px;
+    top: 275px;
+    
+}
+.footerrep{
+    position: absolute;
+    width: 1260px;
+    height: 353px;
+    left: 90px;
+    top: 1132px;
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    color: #14213D;
+
+}
+.client{
+    font-size: 36px;
+    font: 500;
+    
+}
+.i1{
+    position: absolute;
+    margin-left: 10px;
+    left: 353px;
+    top: 145px;
+}
+.i2{
+    position: absolute;
+
+    left: 580px;
+    top: 151px;
+}
+.i3{
+    position: absolute;
+    left: 757px;
+    top: 163px;
+}
+.afterfooter{
+    margin-top:1446px;
+    width: 100%;
+}
+.daptay{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.bacham{
+    position: absolute;
+    margin-left: -152px;
+    z-index: 1;
+}
+.hinhtronn{
+    top: 1961px;
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    background-color: rgba(252, 163, 17, 1);
+    border-radius: 50%;
+    z-index: 1;
+}
+.induce{
+    width: 100%;
+}
+.introheader{
+    position: absolute;
+    width: 100%;
+    height: 905px;
+    left: 790px;
+    top: 1611px;
+}
+.mid{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51.3px;
+    position: absolute;
+    width: 501px;
+    height: 102px;
+    margin-top: -6px;
+}
+.fle{
+    display: flex;  
+   
+    
+}
+.info{
+    
+    margin-left: 70px;
+    width: 251px;
+    height: 160px;
+    margin-top: 100px;
+
+}
+.gat{
+    display: flex;
+}
+.icon1{
+    font-size: 64px;
+}
+.chung{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(48, 57, 72, 1);
+    padding-left: 20px;
+}
+.texty{
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: rgba(89, 97, 109, 1);
+    width: 195px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.heading-2{
+    position: absolute;
+    width: 1245px;
+    height: 786px;
+    left: 98px;
+    top: 2668px;
+
+}
+.teki1{
+    font-size: 36px;
+    color: #14213D;
+}
+.btn1{
+    font-size: 22px;
+    width: 264px;
+    height: 67px;
+    background-color:#14213D;
+    color: white;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    line-height: 67px;
+}
+.itemteam{
+    position: absolute;
+    width: 570px;
+    height: 621px;
+    left: 840px;
+    top: 2559px;
+}
+.elip{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:rgba(252, 163, 17, 0.5);
+    position: absolute;
+    left: 454px;
+    top: -33px;
+}
+.elip1{
+    top: 293px;
+    left: -8px;
+    transform: translate(-50%, 11%);
+    height: 44px;
+    width: 80px;
+    border-radius: 0 0 40px 40px;
+    background-color: rgba(20, 33, 61, 0.5);
+    position: absolute;
+}
+.dot{
+    position: absolute;
+    top: 405px;
+    left: 349px;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+}
+.ads{
+    top:3200px;
+    position: absolute;
+}
+
+.textt{
+    top: 89px;
+    position: absolute;
+    left: 83px;
+
+}
+.hit{
+    font-size: 36px;
+    font-weight: 500;
+    color: #14213D;
+    width: 615px;
+    height: 51px;
+    margin-bottom: 0;
+}
+.last{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(89, 97, 109, 1) ;
+    margin: 0;
+}
+.right{
+    position: absolute;
+    
+    left: 1200px;
+    top: 101px;
+}
+.left{
+    position: absolute;
+    left: 1121px;
+    top: 125px;
+}
+.art{
+    display: flex;
+    text-align: center;
+    top:285px;
+    position: absolute;
+    left:-5px;
+}
+.item11{
+    margin-left: 137px;
+}
+.tieude{
+    font-size: 36px;
+    font-weight: 500;
+    color: #14213D;
+}
+.item11 .btn1{
+    margin-left: 20px;
+}
+.testi{
+    position: absolute;
+    top: 4060px;
+}
+.oftesti{
+    top:168px;
+    position: absolute;
+    left: 60px;
+}
+.dotgrid1{
+    position: absolute;
+    left: 352px;
+    top: 106px;
+}.dotgrid2{
+    position: absolute;
+    left: 397px;
+    top: 162px;
+    z-index: 1;
+
+}
+.half-vuong{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 302px;
+    background: rgba(252, 163, 17, 0.5);
+    z-index: -1;
+}
+.elip2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgba(252, 163, 17, 0.5);
+    position: absolute;
+    left: 418px;
+    top: 602px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+.texttesti{
+    position: absolute;
+    top: 311px;
+    left: 593px;
+}
+.tessti{
+    position: absolute;
+    width: 615px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    color: #14213D;
+}
+.tesi{
+    font-size: 24px;
+    font-weight: 700;
+    color: #14213D;
+}
+.newleft{
+    position: absolute;
+    top: 379px;
+    left: 558px;
+}
+.newright{
+    position: absolute;
+    top: 379px;
+    left:678px;
+}
+.detail{
+    position: absolute;
+    border-radius: 35px;
+    width: 1374px;
+    height: 491px;
+    background-color: rgba(229, 235, 240, 1);
+    background: url(/maumoi/assets/img/image\ 1.png);
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    top: 4924px;
+    left: 60px;
+}
+.vuongtrang{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    top:77px;
+    left: 27px  ;
+}
+.half-tron{
+    position: absolute;
+    top: 97px;
+    left: 76px;
+    transform: translate(-50%, 11%);
+    height: 24px;
+    width: 50px;
+    border-radius: 0 0 25px 25px;
+    background-color: #14213D;
+}
+.cpn{
+    font-size: 20px;
+    font-weight: 700;
+    color: #14213D;
+}
+.tieude{
+    list-style: none;
+    padding: 0;
+}
+.tieude li{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.listlh{
+    position: absolute;
+    left: 776px;
+    top: 92px;
+}
+.listlh1{
+    position: absolute;
+    left: 940px;
+    top: 92px;
+
+}
+.vuongtrong{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1102px;
+    top: 71px;
+    background-color: rgba(250, 250, 250, 0.5);
+    border-radius: 20px;
+    z-index: 1;
+}
+.dottron{
+    position: absolute;
+    left: 1138px;
+    top: 89px;
+}
+.vuongxanh{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1129px;
+    top: 367px;
+    background-color: rgba(20, 33, 61, 1);
+    border-radius: 20px;
+}
+.ghost{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1174px;
+    top: 291px;
+
+}
+.dotsmall{
+    position: absolute;
+    left: -50px;
+    top: 330px;
+}
